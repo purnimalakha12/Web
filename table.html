@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Striped Table</title>
+    <style>
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        th {
+            background: #24665d; color: white;
+        }
+        tr:nth-child(even) {
+            background: #f2f2f2;
+        }
+
+        h2{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2> Striped Table</h2>
+    <table>
+        <tr><th>Name</th><th>Age</th><th>City</th></tr>
+        <tr><td>Alice</td><td>25</td><td>New York</td></tr>
+        <tr><td>Bob</td><td>30</td><td>Los Angeles</td></tr>
+        <tr><td>Charlie</td><td>28</td><td>Chicago</td></tr>
+        <tr><td>David</td><td>35</td><td>Houston</td></tr>
+    </table>
+</body>
+</html>
